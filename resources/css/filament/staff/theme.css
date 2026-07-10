@@ -1,0 +1,20 @@
+/* 1. Tukar warna latar belakang (background) Sidebar */
+.fi-sidebar {
+    background-color: #0f766e !important; /* TUKAR WARNA DI SINI */
+}
+
+/* 2. Tukar warna teks dan ikon menu utama supaya nampak jelas */
+.fi-sidebar-item-label,
+.fi-sidebar-item-icon {
+    color: white !important; /* TUKAR WARNA TEKS DI SINI (contoh: white, #f8fafc) */
+}
+
+/* 3. (Pilihan) Tukar warna apabila tetikus/mouse lalu atas menu (Hover) */
+.fi-sidebar-item-button:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important; /* TUKAR WARNA HOVER */
+}
+
+/* 4. Tukar warna teks untuk nama sistem (Logo/Brand Text) di atas kiri */
+.fi-sidebar-header .fi-brand-name {
+    color: white !important; /* TUKAR WARNA LOGO DI SINI */
+}
